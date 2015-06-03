@@ -21,7 +21,7 @@ public class CloneRepos
 	{
 		File repolistfile = new File("SuperSmallRepoNames1.txt"); //OSX
 		//File repolistfile = new File("/GitRepos/RepoNames.txt"); //Linux
-		String accesstoken = "0746cf2da8f93f169aee98a1c080811188e7b009";
+		
 		String baseurl ="https://github.com/";
 		Scanner sc = null;
 		PrintWriter doneout = null;
